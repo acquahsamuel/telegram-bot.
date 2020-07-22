@@ -1,0 +1,34 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "building telegram bot using the telegraf API for telegram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acquahsamuel/telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "acquah",
+    "samuel",
+    "telegram",
+    "API"
+  ],
+  "author": "Acquah Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acquahsamuel/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/acquahsamuel/telegram-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.9",
+    "telegraf": "^3.32.0",
+    "telegram-passport": "^1.0.5"
+  }
+}
